@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,52 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+li {
+  display: inline-block;
+  padding: 30px;
+  align-items: center;
+}
+
+#box {
+  align-items: center;
+  padding: 80px;
+  margin: 20px;
+  justify-content: center;
+}
+
+textarea {
+  resize: none;
+  margin-top: 30px;
+  width: 90%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+#border-div {
+  margin: 3px;
+  border: 2px solid black;
+  background-color: rgb(232, 232, 232);
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 18px;
+}
+
+#avg {
+  float: left;
+}
+
+#lng {
+  float: right;
 }
